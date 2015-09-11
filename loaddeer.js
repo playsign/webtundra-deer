@@ -64,8 +64,8 @@ var DeerApplication = ICameraApplication.$extend(
 
         // Initiate camera pos/rot and activate it
         var t = this.cameraEntity.placeable.transform;
-        t.pos.y = 2;
-        t.pos.z = 3;
+        t.pos.y = 4;
+        t.pos.z = 8;
         this.cameraEntity.placeable.transform = t;
         this.cameraEntity.camera.setActive();
     },
